@@ -57,9 +57,7 @@ def pedir_cantidad_kilos(cantidad_invalida, nombre_fruta, precio_fruta, precio_t
         else:
             cantidad_invalida = True
             
-        precio_total = precio_total + precio_fruta * float(cantidad)
-        
-        return precio_total     
+        return precio_total + precio_fruta * float(cantidad)   
     
 
 def comprar_mas_fruta(mas_fruta_valida):
